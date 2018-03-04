@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MuHelp</string>
+    <string name="title_activity_main">NW</string>
+    <string name="title_chat">聊天</string>
+    <string name="title_person">用户</string>
+    <string name="title_nw">NW</string>
+    <string name="title_find">发现</string>
+    <string name="title_mine">我的</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="title_username">用户名:</string>
+    <string name="title_password">密码:</string>
+    <string name="title_repassword">确认密码:</string>
+    <string name="title_nickname">昵称:</string>
+    <string name="title_gender">性别:</string>
+    <string name="title_login">登陆</string>
+    <string name="title_registy">注册</string>
+    <string name="title_back">返回</string>
+    <string name="hint_username">请输入用户名</string>
+    <string name="hint_password">请输入密码</string>
+    <string name="new_user">新用户？？</string>
+    <string name="take_photo">拍照</string>
+    <string name="select_photo">从相册中获取</string>
+    <string name="send">发送</string>
+    <string name="sendMessage">发送消息</string>
+    <string name="publish">发布</string>
+    <string name="accepet">接受</string>
+    <string name="title">标题:</string>
+    <string name="title_sign">签名:</string>
+    <string name="title_address">地址:</string>
+    <string name="title_hobby">爱好:</string>
+    <string name="title_organ">发起人:</string>
+    <string name="title_accepet">接取者:</string>
+    <string name="title_price">报酬:</string>
+    <string name="title_time">时间:</string>
+    <string name="title_acctime">接取时间:</string>
+    <string name="title_content">内容:</string>
+
+    <string name="sign">沟通...改变生活</string>
+</resources>

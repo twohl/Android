@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.script.muhelp.activity.AddNWActivity">
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/bottomBut"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="@string/title"/>
+                <EditText
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:padding="@dimen/text_padding"
+                    android:background="@drawable/textview_back"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:gravity="center"
+                    android:text="@string/title_content"
+                    android:textSize="18sp" />
+
+                <EditText
+                    android:id="@+id/content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/textview_back"
+                    android:padding="@dimen/text_padding"
+                    android:text="" />
+            </LinearLayout>
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="50dp"
+                    android:textSize="18sp"
+                    android:gravity="center"
+                    android:text="@string/title_price"/>
+
+                <EditText
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text=""
+                    android:padding="@dimen/text_padding"
+                    android:background="@drawable/textview_back"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/bottomBut"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <Button
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_back"
+            android:text="@string/title_back"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/publish"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_back"
+            android:text="@string/publish"
+            android:textColor="@color/colorAccent"
+            android:textSize="30dp" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

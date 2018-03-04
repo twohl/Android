@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/chat"
+        android:icon="@drawable/chat_unchose"
+        android:iconTint="@color/colorGray"
+        android:title="@string/title_chat" />
+
+    <item
+        android:id="@+id/person"
+        android:icon="@drawable/person_unchose"
+        android:iconTint="@color/colorGray"
+        android:title="@string/title_person" />
+
+    <item
+        android:id="@+id/NW"
+        android:icon="@drawable/nw_unchose"
+        android:iconTint="@color/colorGray"
+        android:title="@string/title_nw"
+        />
+
+    <item
+        android:id="@+id/find"
+        android:icon="@drawable/find_unchose"
+        android:iconTint="@color/colorGray"
+        android:title="@string/title_find" />
+
+    <item android:id="@+id/mine"
+        android:icon="@drawable/mine_unchose"
+        android:iconTint="@color/colorGray"
+        android:title="@string/title_mine"/>
+
+</menu>
