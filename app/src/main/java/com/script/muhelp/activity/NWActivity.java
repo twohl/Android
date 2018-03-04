@@ -15,6 +15,9 @@ import com.script.muhelp.entity.User;
 import com.script.muhelp.util.String2File;
 import com.script.muhelp.util.StyleUtil;
 
+import java.text.SimpleDateFormat;
+import java.util.TimeZone;
+
 import static com.script.muhelp.VarPool.CANLE;
 import static com.script.muhelp.VarPool.OK;
 
@@ -83,8 +86,11 @@ public class NWActivity extends AppCompatActivity implements View.OnClickListene
         nickname.setText(nick);
         content.setText(cont);
         price.setText(pirc);
-        organtime.setText(organt);
-        acctime.setText(acct);
+        SimpleDateFormat sdf = new SimpleDateFormat("yy-MM-dd HH:mm:ss");
+        sdf.setTimeZone(TimeZone.getTimeZone("Asia/Shanghai"));
+
+        organtime.setText(sdf.format(organt));
+        acctime.setText(sdf.format(acct));
         accnickname.setText(accnick);
         if(user.getId() == notWork.getOrganiser().getId()){
             accepet.setText("取消");

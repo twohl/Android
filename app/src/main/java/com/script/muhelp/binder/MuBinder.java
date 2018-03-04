@@ -191,10 +191,10 @@ public class MuBinder extends Binder {
         TimerTask getMyNW = getMyNW();
         TimerTask getMessage = getChatId();
         timer.schedule(getMessage,0,2000);
-        timer.schedule(getMyNW,0,10000);
+        timer.schedule(getMyNW,0,4000);
         timer.schedule(getUser,0,30000);
-        timer.schedule(getNW,0,10000);
-        timer.schedule(getShare,0,20000);
+        timer.schedule(getNW,0,4000);
+        timer.schedule(getShare,0,10000);
         timer.schedule(keep,0,20000);
     }
 

@@ -129,11 +129,11 @@
                 </LinearLayout>
             </LinearLayout>
         </ScrollView>
-        <Button
-            android:id="@+id/sendMessage"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/sendMessage"
-            android:background="@drawable/button_back"/>
+        <!--<Button-->
+            <!--android:id="@+id/sendMessage"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/sendMessage"-->
+            <!--android:background="@drawable/button_back"/>-->
     </LinearLayout>
 </android.support.design.widget.CoordinatorLayout>

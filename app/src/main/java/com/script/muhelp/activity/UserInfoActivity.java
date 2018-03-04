@@ -81,15 +81,15 @@ public class UserInfoActivity extends AppCompatActivity {
     }
 
     private void setListener(){
-        sendMessage = findViewById(R.id.sendMessage);
-        sendMessage.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(context,ChatActivity.class);
-
-                startActivity(intent);
-            }
-        });
+//        sendMessage = findViewById(R.id.sendMessage);
+//        sendMessage.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(context,ChatActivity.class);
+//
+//                startActivity(intent);
+//            }
+//        });
     }
 
     private void setSytle(){
